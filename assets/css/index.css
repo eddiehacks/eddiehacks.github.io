@@ -72,3 +72,13 @@ body{
     -webkit-clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
     clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
 }
+
+@media screen and (max-width:840px) {
+    .tracks-card{
+        margin-top: 2rem;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
