@@ -81,4 +81,8 @@ body{
         margin-left: 2rem;
         margin-right: 2rem;
     }
+    .logo-card{
+        width: 22rem;
+        height: 22rem;
+    }
 }
