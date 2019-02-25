@@ -57,3 +57,18 @@ body{
     font-size: 1.2rem;
     font-family: 'Work Sans', sans-serif;
 }
+
+.desc{
+    font-size: 1.2rem;
+    font-family: 'Work Sans', sans-serif;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tracks-card{
+    background-color: #f1c40f;
+    height: 20rem;
+    -webkit-clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+    clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+}
