@@ -27,3 +27,21 @@ body{
 .container-card{
     margin-top: 10rem;
 }
+
+.signup-btn{
+    background-color: #f1c40f;
+    padding: 5rem;
+    -webkit-clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
+    clip-path: polygon(7% 0, 100% 0, 93% 100%, 0% 100%);
+}
+
+.signup-btn a{
+    width: 100%;
+    text-decoration: none;
+    height: 100%;
+}
+
+.signup-btn:hover{
+    text-decoration: none;
+    background-color: #cca91d;
+}
