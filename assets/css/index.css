@@ -76,10 +76,10 @@ body{
 .intro-logo{
     background-color: #f1c40f;
     background-image: url(/assets/images/logo.png);
-    background-size: 60%;
+    background-size: 50%;
     background-repeat: no-repeat;
-    background-position-x: 70%;
-    background-position-y: 10%;
+    background-position-x: 130%;
+    background-position-y: 35%;
     height: 17rem;
     -webkit-clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
     clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
@@ -87,6 +87,11 @@ body{
     position: absolute !important;
     flex-direction: row-reverse;
     right: 25rem;
+}
+
+.question{
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 @media screen and (max-width:840px) {
