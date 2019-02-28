@@ -73,6 +73,18 @@ body{
     clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
 }
 
+.icon-container{
+    text-decoration: none !important;
+}
+
+.icons-container{
+    margin-top: 2rem !important;
+}
+
+.icon {
+    width: 2rem;
+}
+
 .intro-logo{
     background-color: #f1c40f;
     background-image: url(/assets/images/logo.png);
