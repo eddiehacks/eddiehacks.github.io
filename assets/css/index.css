@@ -86,7 +86,7 @@ body{
 }
 
 .icon {
-    width: 2rem;
+    width: 2.5rem;
 }
 
 .intro-logo{
@@ -111,6 +111,26 @@ body{
     font-size: 2rem;
 }
 
+.footer-text{
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    top: 1rem;
+}
+
+.divder{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 40%;
+}
+
+.footer-info{
+    display: inline-flex;
+}
+
+.footer-logo{
+    margin-right: 2rem;
+}
 @media screen and (max-width:840px) {
     .tracks-card{
         margin-top: 2rem;
