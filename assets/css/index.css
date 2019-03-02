@@ -104,6 +104,7 @@ body{
     position: absolute !important;
     left: 46rem;
     min-width: 50rem;
+    overflow: hidden;
 }
 
 .question{
@@ -152,5 +153,8 @@ body{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+    .intro-logo{
+        display: none;
     }
 }
