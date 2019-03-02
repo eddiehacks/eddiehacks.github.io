@@ -75,6 +75,7 @@ body{
     height: 20rem;
     -webkit-clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
     clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+    min-width: 17rem;
 }
 
 .icon-container{
@@ -142,5 +143,15 @@ body{
     .logo-card{
         width: 22rem;
         height: 22rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .tracks-card{
+        margin-top: 2rem;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
