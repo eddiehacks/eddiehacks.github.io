@@ -129,7 +129,7 @@ body{
 }
 
 .footer-logo{
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 @media screen and (max-width:840px) {
     .tracks-card{
